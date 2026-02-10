@@ -1,13 +1,15 @@
 # Nuxt Project Template
 
+![Nuxt starter](public/images/nuxt_starter.jpeg)
+
 A clean Nuxt starter designed for quick project kickoff with a simple, readable structure.
 
 ## What's Included
 
-- Nuxt 3 app structure with `app/` entry.
+- Nuxt 4 app structure with `app/` entry.
 - Global styles at [app/assets/css/main.css](app/assets/css/main.css).
 - Static assets in [public/](public/).
-- TypeScript config and lint setup for modern Nuxt projects.
+- TypeScript support with config and lint setup for modern Nuxt projects.
 
 ## Pre-installed Libraries
 
