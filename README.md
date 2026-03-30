@@ -27,7 +27,7 @@ Dev tooling:
 - Nuxt ESLint
 - Prettier
 - Prettier Tailwind CSS plugin
-- eslint-plugin-perfectionist
+- eslint-config-prettier
 
 ## Requirements
 

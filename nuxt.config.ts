@@ -1,11 +1,17 @@
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
-  compatibilityDate: "2025-07-15",
-  css: ["@/assets/css/main.css"],
-  devtools: { enabled: true },
   modules: ["@nuxt/eslint"],
+  devtools: { enabled: true },
+  css: ["@/assets/css/main.css"],
+  compatibilityDate: "2025-07-15",
   vite: {
-    plugins: [tailwindcss()],
+    plugins: [tailwindcss() as any],
+  },
+
+  eslint: {
+    config: {
+      stylistic: true,
+    },
   },
 });
